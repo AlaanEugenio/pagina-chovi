@@ -11,24 +11,24 @@
     <h1  class="col-5" style="background-color: #ff5c5b; color: white">Sección de matrículas</h1>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-3">
+            <div class="col-4">
                 <a style="color: white; text-decoration: none; font-size: 20px" href="sobre-nosotros.html">Sobre Nosotros</a>
             </div>
-            <div class="col-3">
-                <a style="color: white; text-decoration: none; font-size: 20px" href="contacto.html">Contacto</a>
+            <div class="col-4">
+                <a style="color: white; text-decoration: none; font-size: 20px" href="galeria.html">Galería</a>
             </div>
-            <div class="col-3">
+            <div class="col-4">
                 <a style="color: white; text-decoration: none; font-size: 20px" href="matriculas.html">Matrículas</a>
             </div>
         </div>
     </div>
 </header>
 <body>
-<form>
+<form class="box">
     <div class="form-row; ancho">
         <div class="form-group col-md-6">
             <label for="inputEmail4">Nombre apoderado</label>
-            <input type="email" class="form-control" id="inputEmail4" placeholder="Ingrese nombre del apoderado">
+            <input type="name" class="form-control" id="inputEmail4" placeholder="Ingrese nombre del apoderado">
         </div>
 
     </div>
@@ -69,6 +69,9 @@
                 </option>                <option>
                     <ul>Séptimo básico</ul>
                 </option>
+                <option>
+                    <ul>Octavo básico</ul>
+                </option>
             </select>
         </div>
     </div>
@@ -80,9 +83,18 @@
             </label>
         </div>
     </div>
-    <div>
+    <div class="ancho">
     <button type="submit" class="btn btn-primary">Matriculate con nosotros</button>
     </div>
 </form>
+<footer class="align-items-end">
+    <div>
+        <h1 class="container-fluid">Escuela Particular Chovi San Juan</h1>
+    </div>
+    <div>
+        <img src="assets/img/mineduc-logo.png" height="113" width="124"/>
+    </div>
+</footer>
+<script src="assets/js/bootstrap/js/bootstrap.min.js"></script>
 </body>
 </html>
